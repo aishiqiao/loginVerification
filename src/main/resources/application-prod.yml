@@ -1,0 +1,34 @@
+server:
+  port: 22599     #------https
+  httpPort: 22598 #------http
+  max-http-header-size: 102400
+  ssl:
+    key-store: classpath:junqi.asia.jks
+    key-store-password: 31tbi1j3314jm0d
+    keyStoreType: jks
+app:
+  version: '@project.version@'
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@10.253.117.138:1521:unicenter
+    username: unicenter
+    password: unicenter
+  thymeleaf:
+    enabled: true
+    encoding: utf-8
+    prefix: classpath:/templates/
+    cache: false
+    mode: HTML
+    suffix: .html
+  resources:
+    static-locations: classpath:static
+#混流接口
+flvUrl:
+  saveVideoWay: 3  #存储方式分为1-3
+  flvUrlPrefix:
+  newFlvUrlPrefix:
+
+queue:
+  fileuploadPath: d://pijunqi/file_managent
+  temporaryPath: c://queueUpMechanism

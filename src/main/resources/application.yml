@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: queue
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: ./logs

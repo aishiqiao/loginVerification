@@ -1,0 +1,16 @@
+server:
+  port: 22499     #------https
+#  httpPort: 22498 #------http
+#  max-http-header-size: 102400
+#  ssl:
+#    key-store: classpath:junqi.asia.jks
+#    key-store-password: 31tbi1j3314jm0d
+#    keyStoreType: jks
+app:
+  version: '@project.version@'
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@10.253.117.138:1521:unicenter
+    username: unicenter
+    password: unicenter

@@ -1,0 +1,772 @@
+2023-02-27 14:36:02.983 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 5084 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:36:02.989 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:36:05.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22599 (https)
+2023-02-27 14:36:05.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22599"]
+2023-02-27 14:36:05.077 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:36:05.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:36:05.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:36:05.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:36:05.081 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:36:05.165 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:36:05.366 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:36:05.367 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2245 ms
+2023-02-27 14:36:05.623 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:36:07.768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22599"]
+2023-02-27 14:36:08.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22599 (https) with context path ''
+2023-02-27 14:36:08.362 [main] INFO  com.kingstar.login.Application - Started Application in 6.797 seconds (JVM running for 9.814)
+2023-02-27 14:36:08.368 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:36:22.054 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:36:28.786 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 19328 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:36:28.797 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:36:30.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:36:30.768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:36:30.769 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:36:30.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:36:30.772 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:36:30.772 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:36:30.773 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:36:30.779 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:36:30.955 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:36:30.956 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1984 ms
+2023-02-27 14:36:31.292 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:36:33.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:36:33.487 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:36:33.498 [main] INFO  com.kingstar.login.Application - Started Application in 5.811 seconds (JVM running for 8.176)
+2023-02-27 14:36:33.501 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:41:52.565 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:42:04.097 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 25232 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:42:04.101 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:42:05.588 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:42:05.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:42:05.599 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:42:05.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:42:05.601 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:42:05.601 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:42:05.602 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:42:05.624 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:42:05.771 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:42:05.771 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1581 ms
+2023-02-27 14:42:06.022 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:42:07.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:42:07.890 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:42:07.906 [main] INFO  com.kingstar.login.Application - Started Application in 4.805 seconds (JVM running for 7.001)
+2023-02-27 14:42:07.914 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:47:17.149 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:47:28.528 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 3708 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:47:28.532 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:47:30.160 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:47:30.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:47:30.176 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:47:30.176 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:47:30.178 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:47:30.179 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:47:30.179 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:47:30.188 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:47:30.348 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:47:30.349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1743 ms
+2023-02-27 14:47:30.735 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:47:32.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:47:33.145 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:47:33.176 [main] INFO  com.kingstar.login.Application - Started Application in 5.652 seconds (JVM running for 7.962)
+2023-02-27 14:47:33.180 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:48:34.379 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:48:46.778 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 16428 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:48:46.783 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:48:49.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:48:49.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:48:49.076 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:48:49.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:48:49.082 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:48:49.082 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:48:49.083 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:48:49.166 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:48:49.355 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:48:49.356 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2458 ms
+2023-02-27 14:48:49.733 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:48:51.643 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:48:51.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:48:51.976 [main] INFO  com.kingstar.login.Application - Started Application in 6.427 seconds (JVM running for 9.475)
+2023-02-27 14:48:51.978 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:55:34.021 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:55:48.065 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 3992 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:55:48.071 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:55:49.725 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:55:49.738 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:55:49.739 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:55:49.740 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:55:49.743 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:55:49.743 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:55:49.744 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:55:49.751 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:55:49.905 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:55:49.906 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1721 ms
+2023-02-27 14:55:50.169 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:55:51.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:55:52.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:55:52.184 [main] INFO  com.kingstar.login.Application - Started Application in 5.312 seconds (JVM running for 8.66)
+2023-02-27 14:55:52.189 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:56:09.445 [https-openssl-nio-22499-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 14:56:09.445 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 14:56:09.459 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-02-27 14:56:27.225 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:56:38.494 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 12388 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:56:38.506 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:56:40.306 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:56:40.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:56:40.320 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:56:40.320 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:56:40.322 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:56:40.323 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:56:40.323 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:56:40.328 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:56:40.501 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:56:40.502 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1849 ms
+2023-02-27 14:56:40.880 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:56:43.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:56:43.501 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:56:43.527 [main] INFO  com.kingstar.login.Application - Started Application in 6.684 seconds (JVM running for 9.415)
+2023-02-27 14:56:43.538 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:56:54.024 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 14:56:54.024 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 14:56:54.035 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023-02-27 14:58:59.536 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:59:06.280 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 20676 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 14:59:06.286 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 14:59:07.884 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 14:59:07.894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:59:07.895 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 14:59:07.895 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 14:59:07.897 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 14:59:07.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 14:59:07.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 14:59:07.905 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 14:59:08.064 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 14:59:08.065 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1682 ms
+2023-02-27 14:59:08.318 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 14:59:09.845 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 14:59:10.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 14:59:10.125 [main] INFO  com.kingstar.login.Application - Started Application in 4.93 seconds (JVM running for 7.122)
+2023-02-27 14:59:10.128 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 14:59:19.272 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 14:59:19.272 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 14:59:19.285 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-02-27 14:59:57.681 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:00:08.319 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 23960 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 15:00:08.322 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 15:00:09.927 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 15:00:09.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:00:09.945 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 15:00:09.946 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 15:00:09.949 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 15:00:09.950 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 15:00:09.951 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 15:00:09.974 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 15:00:10.136 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 15:00:10.136 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1735 ms
+2023-02-27 15:00:10.404 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:00:12.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:00:12.654 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 15:00:12.665 [main] INFO  com.kingstar.login.Application - Started Application in 5.458 seconds (JVM running for 7.51)
+2023-02-27 15:00:12.669 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 15:00:14.868 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 15:00:14.869 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 15:00:14.882 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-02-27 15:01:11.871 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:01:23.053 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 11452 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 15:01:23.057 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 15:01:24.609 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 15:01:24.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:01:24.620 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 15:01:24.620 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 15:01:24.622 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 15:01:24.622 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 15:01:24.623 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 15:01:24.628 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 15:01:24.768 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 15:01:24.768 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1662 ms
+2023-02-27 15:01:25.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:01:26.671 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:01:26.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 15:01:26.912 [main] INFO  com.kingstar.login.Application - Started Application in 4.774 seconds (JVM running for 6.887)
+2023-02-27 15:01:26.915 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 15:01:30.867 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 15:01:30.868 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 15:01:30.879 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023-02-27 15:02:44.416 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:02:54.702 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 30760 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 15:02:54.711 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 15:02:56.078 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 15:02:56.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:02:56.090 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 15:02:56.090 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 15:02:56.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 15:02:56.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 15:02:56.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 15:02:56.099 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 15:02:56.246 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 15:02:56.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1479 ms
+2023-02-27 15:02:56.511 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:02:58.045 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:02:58.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 15:02:58.296 [main] INFO  com.kingstar.login.Application - Started Application in 4.494 seconds (JVM running for 6.422)
+2023-02-27 15:02:58.300 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 15:03:02.067 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 15:03:02.068 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 15:03:02.082 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2023-02-27 15:03:50.071 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:04:01.438 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 25656 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 15:04:01.444 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 15:04:02.993 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 15:04:03.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:04:03.006 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 15:04:03.007 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 15:04:03.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 15:04:03.009 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 15:04:03.009 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 15:04:03.015 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 15:04:03.158 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 15:04:03.159 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1592 ms
+2023-02-27 15:04:03.406 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 15:04:04.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 15:04:05.120 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 15:04:05.131 [main] INFO  com.kingstar.login.Application - Started Application in 4.808 seconds (JVM running for 6.872)
+2023-02-27 15:04:05.135 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 15:04:08.609 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 15:04:08.610 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 15:04:08.622 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-02-27 16:17:19.606 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:17:38.153 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 28932 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:17:38.158 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:17:40.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:17:40.280 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:17:40.281 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:17:40.281 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:17:40.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:17:40.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:17:40.285 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:17:40.389 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:17:40.651 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:17:40.652 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2358 ms
+2023-02-27 16:17:41.041 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:17:44.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:17:45.365 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:17:45.397 [main] INFO  com.kingstar.login.Application - Started Application in 8.677 seconds (JVM running for 12.155)
+2023-02-27 16:17:45.407 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:17:46.658 [https-openssl-nio-22499-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:17:46.658 [https-openssl-nio-22499-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:17:46.672 [https-openssl-nio-22499-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-02-27 16:21:36.225 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:21:49.311 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 16852 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:21:49.316 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:21:51.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:21:51.382 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:21:51.383 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:21:51.383 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:21:51.385 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:21:51.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:21:51.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:21:51.462 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:21:51.651 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:21:51.652 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2177 ms
+2023-02-27 16:21:51.953 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:21:53.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:21:54.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:21:54.120 [main] INFO  com.kingstar.login.Application - Started Application in 6.092 seconds (JVM running for 8.786)
+2023-02-27 16:21:54.123 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:21:59.296 [https-openssl-nio-22499-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:21:59.297 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:21:59.324 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2023-02-27 16:23:14.484 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:23:26.602 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 19964 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:23:26.605 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:23:28.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:23:28.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:23:28.296 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:23:28.296 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:23:28.299 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:23:28.299 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:23:28.299 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:23:28.308 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:23:28.528 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:23:28.529 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1856 ms
+2023-02-27 16:23:28.855 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:23:30.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:23:30.843 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:23:30.853 [main] INFO  com.kingstar.login.Application - Started Application in 5.38 seconds (JVM running for 7.632)
+2023-02-27 16:23:30.855 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:23:34.208 [https-openssl-nio-22499-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:23:34.209 [https-openssl-nio-22499-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:23:34.225 [https-openssl-nio-22499-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-02-27 16:25:14.118 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:25:25.733 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 7160 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:25:25.740 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:25:27.434 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:25:27.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:25:27.446 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:25:27.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:25:27.449 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:25:27.449 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:25:27.449 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:25:27.456 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:25:27.617 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:25:27.617 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1735 ms
+2023-02-27 16:25:27.880 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:25:29.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:25:29.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:25:30.006 [main] INFO  com.kingstar.login.Application - Started Application in 5.514 seconds (JVM running for 7.724)
+2023-02-27 16:25:30.009 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:25:34.053 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:25:34.054 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:25:34.067 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-02-27 16:25:38.178 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:25:38.218 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:25:46.361 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:25:46.363 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:26:42.874 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:27:53.649 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:28:00.468 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:28:00.475 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:31:37.435 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:31:37.436 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:31:43.903 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:31:43.904 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:32:35.488 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:32:35.489 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:33:37.450 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:33:37.453 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:36:33.337 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:38:00.671 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:38:50.906 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:38:50.907 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:39:46.051 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:39:46.053 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:41:10.637 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:41:10.638 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:41:19.314 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:44:16.210 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:44:42.118 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:44:57.285 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:46:14.384 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:47:40.612 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:49:01.293 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:49:01.303 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 16:49:55.846 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:50:07.781 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 23008 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:50:07.786 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:50:11.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:50:11.180 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:50:11.181 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:50:11.182 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:50:11.185 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:50:11.185 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:50:11.185 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:50:11.210 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:50:11.422 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:50:11.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3547 ms
+2023-02-27 16:50:11.810 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:50:14.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:50:14.447 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:50:14.466 [main] INFO  com.kingstar.login.Application - Started Application in 7.763 seconds (JVM running for 9.868)
+2023-02-27 16:50:14.470 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:50:16.458 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:50:16.458 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:50:16.485 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2023-02-27 16:50:16.526 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:52:23.150 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:53:18.839 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:53:30.859 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 30624 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 16:53:30.863 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 16:53:32.513 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 16:53:32.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:53:32.533 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 16:53:32.534 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 16:53:32.543 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 16:53:32.544 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 16:53:32.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 16:53:32.555 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 16:53:32.704 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 16:53:32.704 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1715 ms
+2023-02-27 16:53:32.974 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 16:53:35.309 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 16:53:35.782 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 16:53:35.809 [main] INFO  com.kingstar.login.Application - Started Application in 6.022 seconds (JVM running for 8.146)
+2023-02-27 16:53:35.817 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 16:53:36.467 [https-openssl-nio-22499-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 16:53:36.468 [https-openssl-nio-22499-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 16:53:36.483 [https-openssl-nio-22499-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2023-02-27 16:53:36.503 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:53:55.319 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:56:46.616 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 16:56:56.897 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:03:03.322 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:03:16.343 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 6924 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:03:16.358 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:03:18.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:03:19.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:03:19.005 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:03:19.005 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:03:19.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:03:19.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:03:19.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:03:19.024 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:03:19.185 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:03:19.185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2644 ms
+2023-02-27 17:03:19.478 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:03:21.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:03:21.718 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:03:21.735 [main] INFO  com.kingstar.login.Application - Started Application in 7.096 seconds (JVM running for 9.599)
+2023-02-27 17:03:21.737 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:03:26.163 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:03:35.182 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 12756 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:03:35.185 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:03:36.687 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:03:36.697 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:03:36.698 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:03:36.698 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:03:36.700 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:03:36.700 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:03:36.701 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:03:36.704 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:03:36.858 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:03:36.858 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1579 ms
+2023-02-27 17:03:37.157 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:03:38.822 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:03:39.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:03:39.052 [main] INFO  com.kingstar.login.Application - Started Application in 4.785 seconds (JVM running for 6.823)
+2023-02-27 17:03:39.055 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:03:44.584 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:03:44.584 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:03:44.601 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2023-02-27 17:03:44.626 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:03:51.966 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:03:57.242 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:06:26.105 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:06:26.110 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:06:26.111 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:06:31.254 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:06:41.274 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 11452 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:06:41.278 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:06:43.086 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:06:43.104 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:06:43.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:06:43.111 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:06:43.119 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:06:43.119 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:06:43.121 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:06:43.129 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:06:43.319 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:06:43.320 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+2023-02-27 17:06:43.633 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:06:45.686 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:06:45.955 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:06:45.975 [main] INFO  com.kingstar.login.Application - Started Application in 5.819 seconds (JVM running for 7.913)
+2023-02-27 17:06:45.982 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:06:53.114 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:06:53.115 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:06:53.133 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2023-02-27 17:06:53.283 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:13:07.520 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:13:21.694 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 11632 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:13:21.700 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:13:23.414 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:13:23.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:13:23.424 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:13:23.424 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:13:23.426 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:13:23.426 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:13:23.426 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:13:23.506 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:13:23.653 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:13:23.653 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1848 ms
+2023-02-27 17:13:23.921 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:13:25.579 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:13:25.805 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:13:25.815 [main] INFO  com.kingstar.login.Application - Started Application in 5.449 seconds (JVM running for 8.401)
+2023-02-27 17:13:25.818 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:13:40.119 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:13:40.120 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:13:40.129 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-02-27 17:13:40.141 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:13:56.157 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:13:56.446 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:13:56.447 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:14:14.668 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:15:43.290 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:16:40.315 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:16:40.318 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:16:40.319 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:37:16.050 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:37:30.555 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 13388 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:37:30.558 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:37:32.248 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:37:32.264 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:37:32.265 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:37:32.265 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:37:32.267 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:37:32.267 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:37:32.267 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:37:32.280 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:37:32.430 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:37:32.430 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1767 ms
+2023-02-27 17:37:32.686 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:37:34.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:37:34.694 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:37:34.708 [main] INFO  com.kingstar.login.Application - Started Application in 5.239 seconds (JVM running for 7.537)
+2023-02-27 17:37:34.711 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:37:41.313 [https-openssl-nio-22499-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:37:41.314 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:37:41.326 [https-openssl-nio-22499-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-02-27 17:37:41.346 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:51:13.803 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:51:28.536 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 24308 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:51:28.541 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:51:30.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:51:30.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:51:30.253 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:51:30.255 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:51:30.258 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:51:30.258 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:51:30.258 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:51:30.273 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:51:30.411 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:51:30.411 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1756 ms
+2023-02-27 17:51:30.672 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:51:32.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:51:32.673 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:51:32.684 [main] INFO  com.kingstar.login.Application - Started Application in 5.242 seconds (JVM running for 7.572)
+2023-02-27 17:51:32.688 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:52:00.406 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:52:00.408 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:52:00.435 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2023-02-27 17:52:00.457 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:52:10.867 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:53:10.360 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:53:23.036 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 25640 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:53:23.042 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:53:25.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:53:25.068 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:53:25.069 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:53:25.069 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:53:25.071 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:53:25.071 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:53:25.071 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:53:25.147 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:53:25.289 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:53:25.290 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2159 ms
+2023-02-27 17:53:25.597 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:53:27.468 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:53:27.748 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:53:27.764 [main] INFO  com.kingstar.login.Application - Started Application in 6.234 seconds (JVM running for 8.908)
+2023-02-27 17:53:27.770 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:53:34.354 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:53:34.355 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:53:34.370 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2023-02-27 17:53:34.410 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/login
+2023-02-27 17:53:55.049 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:54:05.858 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 852 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:54:05.863 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:54:08.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:54:08.542 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:54:08.543 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:54:08.543 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:54:08.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:54:08.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:54:08.545 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:54:08.551 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:54:08.743 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:54:08.744 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2797 ms
+2023-02-27 17:54:09.046 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:54:10.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:54:10.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:54:10.977 [main] INFO  com.kingstar.login.Application - Started Application in 6.239 seconds (JVM running for 8.486)
+2023-02-27 17:54:10.980 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:54:15.266 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:54:15.267 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:54:15.279 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023-02-27 17:55:07.787 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:55:48.979 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:56:39.005 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:56:39.011 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:56:39.011 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:57:10.176 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:57:10.177 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:57:10.178 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:57:41.446 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:57:54.075 [main] INFO  com.kingstar.login.Application - Starting Application on KS-SHA-LP190037 with PID 9636 (D:\project\loginVerification\target\classes started by junqi.pi in D:\project\loginVerification)
+2023-02-27 17:57:54.082 [main] INFO  com.kingstar.login.Application - The following profiles are active: dev
+2023-02-27 17:57:55.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 22499 (https)
+2023-02-27 17:57:55.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:57:55.604 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-27 17:57:55.604 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-02-27 17:57:55.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2023-02-27 17:57:55.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-27 17:57:55.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-27 17:57:55.611 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-02-27 17:57:55.753 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-27 17:57:55.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+2023-02-27 17:57:56.010 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-27 17:57:57.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-22499"]
+2023-02-27 17:57:57.884 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 22499 (https) with context path ''
+2023-02-27 17:57:57.901 [main] INFO  com.kingstar.login.Application - Started Application in 4.751 seconds (JVM running for 6.816)
+2023-02-27 17:57:57.909 [main] INFO  com.kingstar.login.Application - ==================模板已启动================
+2023-02-27 17:58:02.482 [https-openssl-nio-22499-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-27 17:58:02.483 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-27 17:58:02.518 [https-openssl-nio-22499-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2023-02-27 17:58:02.553 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:58:22.928 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:58:39.393 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 17:58:39.404 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:58:39.416 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 17:58:39.426 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:58:39.427 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:59:34.907 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 17:59:51.467 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 17:59:51.470 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:59:51.470 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:59:57.695 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 17:59:57.702 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:59:57.703 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 17:59:58.872 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 17:59:58.873 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 17:59:58.873 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:00.530 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:00.531 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:00.532 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:01.154 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:01.156 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:01.156 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:01.582 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:01.584 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:01.585 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:03.690 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:03.692 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:03.692 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:04.333 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:04.335 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:04.335 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:05.100 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:05.101 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:05.101 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:05.932 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:05.933 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:05.934 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:06.597 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:06.599 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:06.599 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:07.300 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:07.302 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:07.302 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:07.987 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:07.989 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:07.989 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:08.675 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:08.676 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:08.676 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:09.344 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:09.347 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:09.347 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:10.016 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:10.018 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:10.018 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:10.759 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:10.767 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:10.768 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:11.638 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:11.640 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:11.640 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:12.303 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:12.305 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:12.305 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:13.044 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:13.046 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:13.047 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:13.803 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:13.805 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:13.805 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:14.509 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:14.513 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:14.515 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:15.245 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:15.247 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:15.247 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:16.058 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:16.059 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:16.059 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:17.004 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:17.005 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:17.005 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:17.873 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:17.875 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:17.875 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:18.613 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:18.615 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:18.615 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:23.090 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:23.092 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:23.093 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:23.999 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:24.000 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:24.000 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:25.822 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:25.824 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:25.824 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:26.765 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:26.766 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:26.766 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:27.584 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:27.585 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:27.586 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:28.250 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:28.252 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:28.252 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:28.881 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:28.882 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:28.882 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:29.438 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:29.439 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:29.440 [https-openssl-nio-22499-exec-4] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:29.899 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:29.902 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:29.902 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:30.282 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:30.283 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:30.283 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:30.867 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:30.868 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:30.868 [https-openssl-nio-22499-exec-7] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:49.708 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:49.709 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:49.710 [https-openssl-nio-22499-exec-8] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:50.536 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:50.538 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:50.538 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:51.660 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:51.665 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:51.666 [https-openssl-nio-22499-exec-10] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:52.376 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:00:52.377 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:00:52.377 [https-openssl-nio-22499-exec-1] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:00:56.176 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/getMap
+2023-02-27 18:01:01.493 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 18:01:01.494 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:01.495 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 18:01:01.496 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:01:01.496 [https-openssl-nio-22499-exec-3] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:02.421 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 18:01:02.421 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:02.422 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 18:01:02.423 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:01:02.423 [https-openssl-nio-22499-exec-6] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:03.727 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 18:01:03.729 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:03.730 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 18:01:03.733 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:01:03.733 [https-openssl-nio-22499-exec-9] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:36.608 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 18:01:36.609 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:36.609 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/error
+2023-02-27 18:01:36.611 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:01:36.611 [https-openssl-nio-22499-exec-2] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
+2023-02-27 18:01:53.816 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - preHandle拦截到的请求的URI=/user/test
+2023-02-27 18:01:53.822 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - postHandle() 执行了...
+2023-02-27 18:01:53.822 [https-openssl-nio-22499-exec-5] INFO  com.kingstar.login.utils.LoginInterceptor - afterCompletion() 执行了...
