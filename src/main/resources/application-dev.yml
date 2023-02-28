@@ -14,3 +14,7 @@ spring:
     url: jdbc:oracle:thin:@10.253.117.138:1521:unicenter
     username: unicenter
     password: unicenter
+limit:
+  request:
+    time: 1
+    count: 4

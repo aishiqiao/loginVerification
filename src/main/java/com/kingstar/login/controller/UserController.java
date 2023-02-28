@@ -1,6 +1,7 @@
 package com.kingstar.login.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.kingstar.login.aop.LimitRequest;
 import com.kingstar.login.bean.User;
 import com.kingstar.login.service.UserService;
 import com.kingstar.login.utils.TokenUtil;
@@ -21,7 +22,8 @@ public class UserController {
     @Resource
     private HttpSession session;
 
-
+    //其中count指的是规定时间内的访问次数，表示该接口在我们设置的默认时间内只能访问3次，默认时间在自定义注解里面设置的
+    @LimitRequest(isFlag = true)
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public Map<String, Object> login(@RequestBody User user) {
         Map<String, Object> map = new HashMap<>();
